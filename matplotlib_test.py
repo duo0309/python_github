@@ -22,7 +22,7 @@ y = np.log(x)
 plt.show()
 
 # ------------------------------------------
-# 1 dimension plot
+# 2 dimension plot
 # ------------------------------------------
 
 
@@ -34,7 +34,7 @@ x = np.linspace(0, 5, 50)
 y = np.linspace(0, 5, 40)
 
 X, Y = np.meshgrid(x, y)
-Z = f(X,Y)
+Z = f(X, Y)
 
 plt.contourf(X, Y, Z, 20, cmap='RdGy')
 plt.colorbar()
